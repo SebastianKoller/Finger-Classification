@@ -6,14 +6,19 @@ AI project for CP468 at Wilfrid Laurier University with Professor Sukhjit Sehra.
 Train a Convolutional Neural Network to be able to classify images in the fingers dataset into their respective classes, with high accuracy.
 ### Results
 Our model, trained to stop at 0.002 validation loss, reported the following accuracies:
-99.48% training
-99.97% validation
-99.92% testing
+- 99.48% training
+- 99.97% validation
+- 99.92% testing
 ### Conclusion
 The Convolutional Neural Network was extremely effective in classifying each image into its respective class.
 ## Dataset
 We used the [Fingers](https://www.kaggle.com/datasets/koryakinp/fingers) dataset by Pavel Koryakin.
+
 This dataset was very attractive to us for our first Convolutional Neural Network project as it offered a large balanced dataset, with a good amount of preprocessing already applied to the images to assure effective model training.
+
+**NOTE** We have modified the file structure of our dataset so each image is contained with a parent folder denoting its class. This is done in order to properly make use of the Keras ImageDataGenerator class when preapring our data for training and testing. This modified dataset is required if you wish to use the code. (See example of modified structure below)
+
+![image](https://user-images.githubusercontent.com/90881660/179855081-24058c39-6c8a-4dca-a17e-5e935ed6820f.png)
 ## Installation and Execution
 ### Testing our pre-trained model
 1. Open *FingersClassification.ipynb* on Google Colab. 
@@ -30,12 +35,17 @@ In the training process, performace of the model is evaluated by:
 - **Accuracy**: the goal is to maximize training accuracy (without overfitting)
 - **Validation Loss**: the goal minimize validation loss
 - **Validation Accuracy**: the goal is to maximize the validation accuracy
+
 Analyzing these metrics allow us to identify if the model is behaving correctly.
+
 When evaluating performance of the complete model, we use prediction accuracy to determine the model's efficacy.
 ### Hyperparameters
 The model's hyperparameters (sizes of Conv2D and Dense layers) have been hard-coded in after our model omptimization evaluation.
+
+Others parameters such as layer choice, count and order were selected in a trial and error process beginning with the simplest model we could create and progressivley making it more complex.
 ## Developers
 Sebastian Koller - Senior Computer Science Student at Wilfrid Laurier University
+
 Nadia Eghnaim - Senior Computer Science Student at Wilfrid Laurier University
 ## License
 MIT License (See LICENSE.md)
