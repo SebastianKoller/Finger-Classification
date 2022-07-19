@@ -38,4 +38,4 @@ The model's hyperparameters (sizes of Conv2D and Dense layers) have been hard-co
 Sebastian Koller - Senior Computer Science Student at Wilfrid Laurier University
 Nadia Eghnaim - Senior Computer Science Student at Wilfrid Laurier University
 ## License
-MIT License
+MIT License (See LICENSE.md)
