@@ -20,11 +20,6 @@ This dataset was very attractive to us for our first Convolutional Neural Networ
 
 ![image](https://user-images.githubusercontent.com/90881660/179855081-24058c39-6c8a-4dca-a17e-5e935ed6820f.png)
 ## Installation and Execution
-### Testing our pre-trained model
-1. Open *FingersClassification.ipynb* on Google Colab. 
-2. Upload *fingers_dataset_modified.zip* and *FingersModel* into the session storage. (This can be done by selecting the "Files" icon in the left toolbar, followed by the "Upload Session Strorage" icon.)
-3. Navigate to the **Setup Section** in the notebook and run all cells. (This can be done easily by collapsing the section and clicking the play button)
-4. Ignore the Training Section and navigate to the **Testing Section** and run the code block inside. The output of this block displays the testing results using our pre-trained model.
 ### Create and test model from scratch
 1. Open *FingersClassification.ipynb* on Google Colab. 
 2. Upload *fingers_dataset_modified.zip* into the session storage. (This can be done by selecting the "Files" icon in the left toolbar, followed by the "Upload Session Strorage" icon.)
@@ -42,7 +37,7 @@ When evaluating performance of the complete model, we use prediction accuracy to
 ### Hyperparameters
 The model's hyperparameters (sizes of Conv2D and Dense layers) have been hard-coded in after our model omptimization evaluation.
 
-Others parameters such as layer choice, count and order were selected in a trial and error process beginning with the simplest model we could create and progressivley making it more complex.
+Others parameters such as layer choice, count and order were selected in a trial and error process beginning with the simplest model we could create and progressively making it more complex.
 ## Developers
 Sebastian Koller - Senior Computer Science Student at Wilfrid Laurier University
 
