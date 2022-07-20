@@ -16,7 +16,7 @@ We used the [Fingers](https://www.kaggle.com/datasets/koryakinp/fingers) dataset
 
 This dataset was very attractive to us for our first Convolutional Neural Network project as it offered a large balanced dataset, with a good amount of preprocessing already applied to the images to assure effective model training.
 
-**NOTE** We have modified the file structure of our dataset so each image is contained with a parent folder denoting its class. This is done in order to properly make use of the Keras ImageDataGenerator class when preapring our data for training and testing. This modified dataset is required if you wish to use the code. (See example of modified structure below)
+**NOTE** We have modified the file structure of our dataset so each image is contained within a parent folder denoting its class. This is done in order to properly make use of the Keras ImageDataGenerator class when preapring our data for training and testing. This modified dataset is required if you wish to use the code. (See example of modified structure below)
 
 ![image](https://user-images.githubusercontent.com/90881660/179855081-24058c39-6c8a-4dca-a17e-5e935ed6820f.png)
 ## Installation and Execution
