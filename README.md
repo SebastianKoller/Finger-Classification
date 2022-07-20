@@ -23,7 +23,7 @@ This dataset was very attractive to us for our first Convolutional Neural Networ
 ### Create and test model from scratch
 1. Open *FingersClassification.ipynb* on Google Colab. 
 2. Upload *fingers_dataset_modified.zip* into the session storage. (This can be done by selecting the "Files" icon in the left toolbar, followed by the "Upload Session Strorage" icon.)
-3. Navigate to the top Menu, Select **Runtime > Run All**. This will run the Setup, Training and Testing sections in succession and print the testing results at the end. (Please note its takes approximatley 5-10 mins to train the model)
+3. Navigate to the top Menu, Select **Runtime > Run All**. This will run the Setup, Training and Testing sections in succession and print the testing results at the end. (Please note its takes approximatley 10-15 mins to train the model)
 ## Performance Parameters
 ### Performace Evaluation
 In the training process, performace of the model is evaluated by: 
